@@ -1,0 +1,64 @@
+**June 30, 2025 Notes**
+
+**Roles in the Software Development Team**
+
+- Requirements Engineers/Business Analyst/Product Owner
+- SRS - outlines the complete and precise definition of a software product's intended behavior and performance
+- BRD - focuses on the business need
+    - BRD,SRS, User story
+    - As a tester your job is to sometimes **write an acceptance criteria**
+    - Your job as a tester is to review these BRD, find ambiguities, inconsistencies, any incompleteness
+- UI/UX Designer
+    - Figma. Wireframe
+    - Test the design as a tester
+    - Check if the requirements follow the design given
+- Front-end, Back-end and Mobile Developers
+    - Development
+    - Front-end = test; Backend = test; Front-end+Backend = **integration testing**
+- Project Manager & Scrum Master(for agile teams)
+- Software Tester
+
+**How software is developed - Software development lifecycle models**
+
+1. Sequential Development
+- Analysis -> Design -> Implementation->Testing
+- Does not go back
+- Waterfall model - testing is not early, not recommended
+- V-Model (created due to drawbacks of waterfall)
+
+VModel Testing:
+
+- Requirements = Acceptance Testing (Creation of test analysis and design)
+- Specification = System Testing (Creation of test scenarios and test cases)
+- Architectural = Integration Testing (Creation of test integration cases)
+- Detailed Design = Unit Testing (Creation of test driven development)
+- Test Levels Meaning:
+    - Unit Testing - dev; cares about how the software is developed
+    - Acceptance Testing - what the user needs
+    - Integration Testing - dev
+    - System Testing - software tester
+1. Agile Software Development
+- Is not sequential
+- Continuous Feedback
+- Agile Manifesto = 4 values, 12 principles
+
+2.1 Incremental and Iterative Development
+
+- Incremental - each part is unusable as a whole
+    - System is not usable not until the whole system is finished
+- Iterative - each part can be usable
+    - MVP - Minimum Valuable Product
+- Scrum Process
+    - Agile is a way of thinking
+    - An approach to apply agile principles
+    - User stories - written functionalities
+    - Scrum is an iterative model
+- Difference Between Sequential, Iterative and Incremental Development
+    - Sequential
+        - Fixed Requirements
+        - Cannot change the requirements
+    - Agile
+        - Fixed Time
+        - Fixed Effort
+        - Estimated Requirements
+        - Use “cone of uncertainty”

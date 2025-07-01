@@ -1,0 +1,201 @@
+**July 1, 2025**
+
+**Basic Concepts of Software Testing**
+
+What is Testing?
+
+- Testing things to work as expected to avoid loss of money, time, business reputation, etc.
+- Assess the quality, reduce the risk
+- Not only test execution, it is a **process** where execution is only a part of it
+
+Static and Dynamic Testing
+
+- Both are the responsibility of the tester
+1. Dynamic Testing
+- Type of processing
+- Providing input to the system, then the system processes it to give an output.
+- Compare the output to the expected output
+1. Static Testing
+- Does not process
+- Not providing input, not expecting output
+- Reviewing the design, code, and documents is an example
+- White-box testing: reviewing the code in order to test its functionality
+- Early testing since it is easier to test it statistically
+
+Validation and Verification
+
+1. Validation
+- Am I building the right product?
+- Will the application satisfy the user’s needs?
+- Thinking of other aspects of the system for the user
+- Does not have to follow a written requirement
+1. Verification
+- Is the application inline with the requirements?
+- Am I building the product right?
+
+Objectives of Software Testing
+
+1. Work-product evaluation
+- Work products: documents to create the final product
+1. Requirements Fulfillment
+2. Building Confidence
+- Our application is free of defects
+1. Finding Defects
+2. Preventing Defects
+- Make sure the defect does not happen in the first place
+- Reviewing the requirements, doing early testing
+1. Providing Information to Stakeholders
+- The software tester is usually the one who provides information if the software is ready to be released or not
+1. Reduce Risk
+2. Compliance with Laws
+3. Objectives may vary
+
+Testing and Debugging
+
+1. Testing
+- Static and Dynamic Testing
+- Finding defects for reporting
+- Writing a defect report
+1. Debugging
+- Removing the cause of the defect/failure
+- Development activity
+1. Confirmation Testing
+- Are the defects fixed?
+- Repeating the steps that caused the defect
+
+Test Process
+
+- About dynamic testing
+- Plan->Design->Execution
+- Plan: Analysis, Strategy, Plan, Tools
+- Design: Test cases, scripts, scenarios, env
+- Execution: Test report, defect tracking, defect analysis and report
+
+Test Process Activities
+
+1. Test Planning
+- Test Plan, deliverables needed
+- Written by test manager or test leader
+1. Test Monitoring & Control
+- Compare what happened in the project and in the plan
+- Comparing the schedules from the test plan
+- Control is the plan to go back to the test plan
+- Responsibilities of the test manager or test leader
+- Creates the test progress report
+- Are continuous activities
+1. Test Analysis
+- Analyze the BRD
+- Create the test scenarios
+- Identify what we are going to test, usually written in a simple sentence
+1. Test Design
+- Create the test cases
+- How are we going to test those functionalities/scenarios?
+1. Test Implementation
+- Are we ready to begin execution?
+- Where will we execute the test cases?
+1. Test Execution
+- Run our test cases and test scenarios
+1. Test Completion
+- Create the reports and hand over to the team
+- Test Completion Report
+
+Test Levels
+
+- Are test activities that are organized and managed together
+- Each test level is an instance of the process
+- Test levels are related to other activities within the software development lifecycle
+1. Component Testing/Unit Testing
+- Testing components that are separately testable
+1. Integration Testing
+- Testing the interactions between the components
+1. Component Integration
+- Testing the components
+1. System Integration
+- Testing the two systems (backend, frontend)
+
+-   Component Testing -> Component Integration Testing -> System Testing -> System Integration Testing
+
+- Component Integration Testing are usually done by devs
+
+-   System Integration Testing is done by tester
+
+3. System Testing
+
+- Usually called “end-to-end” testing
+- Main responsibility of the tester
+- The test environment should ideally correspond to the final target or production environment
+- Main goal: Find defects
+
+4. Acceptance Testing
+
+- UAT
+- Focuses on the end users
+- Main goal: Should be as bug free as possible
+1. Alpha Testing
+- Invite potential users to test the system in our own company
+1. Beta Testing
+- Invite potential users to test the system in their own homes
+
+Testing Types
+
+1. Functional Testing
+- Tests what the system does
+- Answered with (Y/N)
+1. Non-functional Testing
+- Tests how the system performs
+- Usually measured as a range
+- Usability, performance, security
+- Hard to answer with (Y/N)
+- Is the app quick enough? How much time does it respond?
+1. Black-box Testing
+- Testing without knowing the internal structure of the system
+- Providing input to the system and wait for the output
+- Near to the requirements of the user
+1. White-box Testing
+- Testing with the knowledge of the internal structure of the system
+- How the system performs my functionality
+- Testing the request, the API request that was sent and what is the request received
+1. Dynamic Testing
+- Testing that includes executing the software
+1. Static Testing
+- Testing that does not include executing the software
+1. Retesting (Confirmation Testing)
+- Testing after debugging to ensure defects are fixed
+1. Regression Testing
+- Testing unchanged areas to ensure they are not affected by changes
+- Try to use automation as much as possible
+1. Smoke Testing
+- Testing main functionalities and simple tests
+- Allows to save time
+
+What’s Next? Talking about the ISTQB
+
+- Go to [ISTQB.org](http://istqb.org/)
+- Go to the Certified Tester Foundation Level and study their syllabus and try their exams
+- Go for the ISTQB Foundation Level Certified Tester
+- Agile Tester: Simple certificate
+- Specialist Certificates: go to any specialist tester certificate based on your speciality
+- Core Certificates: Need a lot of experience in the field
+
+**Test Scenario Writing**
+
+Test Scenario
+
+- Reviewing the requirements to prepare creating test scenarios for them
+- Is defined as any functionality that can be tested
+- Also called test condition or test possibility
+- Think about the scenarios the user would do in your application
+
+How to Create a Test Scenario
+
+1. Create the Requirement Document
+2. Isolate every requirement and identify what possible user actions that need to be tested for it
+3. Enumerate Test Scenarios that covers the possible features
+4. Create **Traceability Matrix** to ensure that every requirement is mapped to a test scenario
+5. Get the scenarios reviewed by a supervisor
+6. Map the priorities of the test scenarios
+
+Tools to help in creating Test Scenarios
+
+1. Google
+2. ChatGPT

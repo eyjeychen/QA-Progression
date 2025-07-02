@@ -1,0 +1,34 @@
+**July 2, 2025**
+
+Setting Up Trello
+
+- A team management tool
+- Atlassian is a company that has a lot of tools (Trello and Jira)
+
+Key Takeaway from Learning this course:
+
+1. Knowing how to create test scenarios using Trello Tool
+2. You should know your audience, who is the app built for?
+
+E.g. if it is an international level app, test the test fields if it can accept russian letters, arabic letters, etc
+
+1. Valid scenarios are actually more tough to create than valid scenarios
+2. Any field when you provide invalid data in it, whether it is leaving the field empty, providing too short value, providing invalid input.All other fields should be filled with valid data.
+
+**Reason:** If you filled two fields with invalid data and the application crashed, you will not be able to find out what field caused the crash
+
+1. Verify vs Validate:
+
+### Verify = "Did we build it right?"
+
+- You check if the form, buttons, or fields work the way they should.
+- Example: You verify if the name field only accepts 50 characters.
+- **Check** the form or input rules
+- Is the system built right?
+
+### Validate = "Did we build the right thing?"
+
+- You test if the system works for the user's needs or real-world rules.
+- Example: You validate if the password is strong or if the user is old enough to sign up.
+- **Test** real user data and rules
+- Does it make sense for real users?

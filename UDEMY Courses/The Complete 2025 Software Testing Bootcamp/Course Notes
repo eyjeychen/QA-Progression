@@ -299,3 +299,11 @@ E.g. if it is an international level app, test the test fields if it can accept 
 - Example: You validate if the password is strong or if the user is old enough to sign up.
 - **Test** real user data and rules
 - Does it make sense for real users?
+
+**July 3, 2025**
+
+1. High level scenarios = more broad, low level scenarios = more specific
+- Ex. Validate ALL redirections in the page = high level
+1. Manual Testers should be able to generate many scenarios and execute them
+2. Usability Suggestion - suggesting a better way to implement a functionality
+3. Test analysis is writing test scenarios, test design is writing test cases

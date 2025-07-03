@@ -1,0 +1,7 @@
+**July 3, 2025**
+
+1. High level scenarios = more broad, low level scenarios = more specific
+- Ex. Validate ALL redirections in the page = high level
+1. Manual Testers should be able to generate many scenarios and execute them
+2. Usability Suggestion - suggesting a better way to implement a functionality
+3. Test analysis is writing test scenarios, test design is writing test cases

@@ -307,3 +307,27 @@ E.g. if it is an international level app, test the test fields if it can accept 
 1. Manual Testers should be able to generate many scenarios and execute them
 2. Usability Suggestion - suggesting a better way to implement a functionality
 3. Test analysis is writing test scenarios, test design is writing test cases
+
+**July 4, 2025**
+
+**Black-box Testing Techniques**
+
+- Applied in system testing or acceptance testing
+1. Equivalence Partitioning - divides the system into smaller partitions and each partition has a similar behavior
+2. Boundary Value Analysis - same with equivalence but we focus on values on the boundaries
+3. Decision Table Testing
+4. State Transition Testing - going through different systems, login -> homefeed
+5. Pairwise Testing - combination of different inputs (e.g search functionality)
+- Just provide input and wait for output
+- Also called “Behavioral-based Testing”
+
+Equivalence Partitioning
+
+[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPf1TnTta0qBsMG75phy_gfzemr0jbup4EGYrGPNFHpg83aOUaqrX_8Uq0zQLyZsKL7b0_obgwwgfK0BqJBvCyhSPGdXJo3q154dyBjJ9U14CuSX60bo1QGc8bA8iplCY7TUXRGA?key=iE4UZac5u5rdOXpBxf1K1g)
+
+- Equivalence partitioning is basically testing the system if it is properly doing what its needed to be done in a specific part of the process/partition
+- Covering each partition in the system with one test case
+- Identify the partitions, then for each partition, test each one time per day
+- **Basically, You test just one value from each group instead of testing everything — because the system is expected to handle all values in that group the same.**
+- A form only accepts numbers from **1 to 100**. You choose to test the values 0, 50, and 101.
+- → This is a correct use of equivalence partitioning.

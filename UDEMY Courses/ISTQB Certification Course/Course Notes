@@ -1,0 +1,64 @@
+July 5, 2025
+Why is Testing Necessary?
+ From the user’s perspective:
+It is everywhere
+Software that has minor issues might cause huge problems and frustrations
+Can cause:
+Money loss
+Waste of time and effort
+Business reputation
+Loss of life
+No issue is small
+
+From the project management perspective:
+It is a form of quality control
+
+Typical Objectives in Testing:
+Evaluating work products such as user requirements, user stories , designs and code
+Causing failures and finding defects
+Ensuring required coverage of a test object
+Reducing the risk level of inadequate software quality
+Verifying whether specified requirements have been fulfilled
+Verifying that a test object complies with contractual, legal, and regulatory requirements
+Providing information to stake holders to allow them to make informed decisions
+Building confidence in the quality of a test object
+Validating whether the test object is complete and works as expected by the stakeholders
+Test objectives  are usually straight forward 
+Test objectives display a list of time and ask what is a test objectives and what is not
+
+Validation vs Verification
+Validation mentions the user more and asks if we are building the right product
+Verification mentions the documents more and asks if are we building the product right
+
+Errors, Defects and Failures
+A person makes an error that creates a defect / bug in the software that can cause a failure in the system operation
+Example:
+Someone has a fever (failure, a symptom you can see) and goes to the Dr who decides something is wrong with the stomach (a defect) because the patient ate too much (error)
+Failures can also be caused by environmental conditions
+
+False-positive vs False-negative
+False-positive
+We did something wrong which we thought we found a defect but it was a wrong finding
+Probably duet to:
+Errors in the test execution
+Defects in the test data
+Test environments
+Other reasons
+False-negative
+We did something wrong but we cannot find the defect
+
+Root Cause Analysis 
+Helps in preventive measures for the software in the near future
+
+Root Cause, Error, Defect, Failure
+Root causes leads to human error which then leads to the defect thus the failure
+Example:
+The designer is tired (root cause)
+Designer documents wrong for disabled users (error)
+The programmers are in a severe time pressure (root cause)
+So they did not include exception handling for calculations (error)
+
+Dynamic and Static Testing
+Dynamic testing is testing that occurs once the system is already there, so expect that there will be defects
+Static testing takes place early in the software life cycle
+Includes techniques such as reviewing documents and prevents defects from being introduced into the code

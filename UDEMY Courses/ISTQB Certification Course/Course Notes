@@ -62,3 +62,48 @@ Dynamic and Static Testing
 Dynamic testing is testing that occurs once the system is already there, so expect that there will be defects
 Static testing takes place early in the software life cycle
 Includes techniques such as reviewing documents and prevents defects from being introduced into the code
+
+**July 6, 2025**
+
+**Verification and Validation**
+
+- Verification is whether the system the specified documents
+- Validation checks whether the system will meet user and other stakeholder needs
+- Verification + validation = doing the right thing in the right way
+
+**What is Testing?**
+
+- Testing is a big industry and has many branches
+- Set of activities to discover defects and evaluate the quality of software artifacts
+- **Artifacts are anything the development and testing teams produce to help create the software product**
+- **Test objects are any artifact that is being tested**
+
+**Testing and Debugging**
+
+- Testing finds defects
+- Debugging fixes these defects (a development activity)
+- Debugging activities include:
+    - Reproduction of a failure
+    - Diagnosis (finding the root cause)
+    - Fixing the cause
+- Confirmation testing or re-testing is to test to check whether the bug was fixed
+- Static testing points to the defect directly, debugging is concerned with removing it
+    - No need for reproduction or diagnosis since static testing directly finds defects and cannot cause failures
+
+**Does testing increase the quality of the software?**
+
+- **No. Fixing bugs is a development activity not a testing activity. So testing simply builds confidence in the quality of the test object by providing higher-quality test objects**
+
+**Testing’s Contributions to Success**
+
+- Provides a cost-effective means of detecting defects
+
+**Quality Assurance and testing**
+
+- **Quality assurance -** “process-oriented”. The better the process, the better the software. “Process improvements”
+    - If a good process is followed correctly, then it will generate a good product
+    - A preventive approach
+    - Test results in QA provide feedback on how well the development and processes perform
+- **Testing -** “product-oriented”. It is a major form of **quality control**.
+    - A corrective approach
+    - Test results for QC are used to fix defects

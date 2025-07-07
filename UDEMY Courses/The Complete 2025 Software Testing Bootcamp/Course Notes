@@ -331,3 +331,88 @@ Equivalence Partitioning
 - **Basically, You test just one value from each group instead of testing everything — because the system is expected to handle all values in that group the same.**
 - A form only accepts numbers from **1 to 100**. You choose to test the values 0, 50, and 101.
 - → This is a correct use of equivalence partitioning.
+
+## Notes:
+
+**July 7, 2025**
+
+**Equivalence Partitioning examples**
+
+- Identify your partitions first
+
+Example: Grading system of  F to A
+
+- equivalence partitioning divides the input domain into distinct **partitions that represent different classes of input based on expected behavior**, rather than equal sizes.
+
+**Boundary-Value Analysis**
+
+- An extension of equivalence partitioning
+- Is more complex
+- You should use boundary-value analysis when you have a clear start and end of each partition
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfdSPF-ULFD9fDT34LZUkZdWzWQI73y3r5Z0y1vIcR770Px9bbMrqXY14ntZP3cYakoeC9TAVBrVYIpTR0hFofxvE2eAm-YxSiYr7Csf9FGDjObjJeGKY6-r3X9BkG910roGJyVdg?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- Basically boundary-value analysis is testing the boundary values and not the values in between them
+- 2 Boundary value analysis = the last value from the first partition and the first value from the second partition
+- An example of boundary value analysis = Testing the first invalid value and first valid value example is age is less than 13, you will test between 12 years old and 13 years old.
+- 
+
+**Notes about EP and BVA**
+
+- Each value belongs to only one partition
+- EV and BVA can be applied to both input or output values
+- Two types of partitions: valid and invalid partitions
+- **EVC** = # of partitions covered by TCs / total number of partitions
+- **BVAC = # of boundaries covered by TCs/ total number of boundaries**
+    - Each boundary = 2 values
+
+**Decision Table Testing**
+
+- Different combinations of conditions result in different outcomes
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBwRJHjU1MTIkkpkLSYB9tuowGm4XPewAMyoNDQsop6x0nfsFJxCpHniwawZjOlk-tnJAGIzO_nMGXo9k36iTjwPS1CvOm0ieshcr8ZQ6No1JipEpWn14tM4OKuX9nlrNt-5N5?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- **Formula: no. of table rules = 2^n**
+    - N = no. of questions/conditions
+    - 2 = yes/no questions
+    - Table rules = columns
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSIGIvtHuKT0A8KNbQxrsYh37kx7-IDdTwwuhFunyxtECIGD51dcnRMWeuTkuX5xAdeapUKh-kLH0u9TSNt0lNmqWp8K1uM5VxdW93sIHLOhliKb0tc2Wg19NiHoxgbtT2yjDe?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+
+**State-Transition Testing**
+
+- Having states and transitions in your system
+- A **state** is a place in which your system can rest
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5B-eiPlvWuRIaiP2bdz7D8ekqdA2mxmpBo1OP67OimOgqv6Z4dEVr4eb0cvNX8LI8MNjB8hYvwV5-n2ZcaaxLNHoL_56eB5dkmOM2Jj1IdzMvDc36M0_P0i_EOdMBFXNB18euug?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1dNtNA50IMa6l-aU2Hyc7tIaSHb1mAgf_LvSq8wQRurth03pLZ3euAzq_hoTXwmBW0geaIiuZ3VJSmGLzZXxzH2OKWjem3026PhIzVNRkoxnfjUfTue1meLlzPY96jFGmNeETZg?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfb5O5vuezURcwlwinosJYJC6tk1xSTR_gqiG12GffeRu-VwlIDiHcRyBxhBBwWymrwlesRdNhQpN9BwIfLautX7Htm8avCTQpU8byLV86KhVk_qo0CnxdaZZMfSYhxDDGYv1qw-w?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- Dead state = no transition is going out of it, or cannot continue working on the system
+
+**Pairwise Testing**
+
+- Applied in some specific cases inside your websites
+- Ex: You have 3 fields but each field has more than one option
+- In pairwise testing, each pair of values should appear with each other at least in one test case
+- testing **every possible combination of pairs** of input values. Instead of testing all combinations
+- Use pairwise pict online
+- If you need to test all the pairs just multiply it by each others pairs (example: 3 bread x 3 cheese = 9 combinations)
+- Pairwise testing is simply making sure at least one pair appears in the test cases
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdwq6-McOpqOXxtoqnEzrt7C6VIxarort4OKcY_j-j0q9aMP6LdjuSjq5CvEtWDlWM_8EyznH2U2ow4FpBNFvoXD5NF0Tp5Fi1p0yZk8ejhensVu7xRi8nyZ-yeQpw-TPXLqHzbyA?key=iE4UZac5u5rdOXpBxf1K1g)
+    
+- Example: 4.0 and up and all levels
+- So instead of 80 test cases, using pairwise you can only have up until 22 test cases

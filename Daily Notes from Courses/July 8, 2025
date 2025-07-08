@@ -1,0 +1,146 @@
+**July 8, 2025**
+
+**The Concept of Coverage in Software Testing**
+
+- Test coverage is an essential part of software testing
+- Measures the amount of testing performed by a set of tests
+- Test coverage measures the effectiveness of our testing
+- Parts we can measure for coverage
+    - Requirements Coverage = test against all requirements
+    - Structural coverage = has each design been exercised during testing
+    - Implementation coverage = has each line of code been exercised?
+- How can we know which requirement has been tested?
+    - Traceability matrix
+
+**The Seven Testing Principles**
+
+1. Testing shows the presence of defects, not their absence
+    1. There is no such thing as bug-free software
+2. Exhaustive testing is impossible
+    1. Testing everything is impossible except for trivial cases
+3. Early Testing Saves Time and Money
+    1. Early testing would be cheaper
+    2. Time and Effort is reduced if discovered in the early phase
+4. Defects Cluster Together
+    1. A small number of modules usually contains most of the defects
+    2. Closely related to the pareto principle (80/20 principle)
+        1. 80 percent of the problems are usually found in 20% of the modules
+5. Tests wear out
+    1. If same tests are repeated, eventually the same set of test cases will no longer find any new defects
+6. Testing is context-dependent
+    1. Different testing is necessary for different circumstances
+    2. Testing in an agile is different in a sequential
+7. Absence of errors is a fallacy
+    1. A mistake that there is no error present
+
+**Test Conditions, Test Cases, Test procedure, and Test Suites**
+
+- **Test Condition** is an item or event of a component that can be verified by one or more test cases.
+    - Example: a function, transaction, feature, quality, etc
+- **Test Cases is a set of input values, preconditions, expected results and post conditions developed from a test condition or objective**
+    - **High-level test cases** mean they don't indicate exact data, just logical information
+    - **Low-level test cases are also called concrete test cases (e.g. = test with input 10). Are test cases that contain data**
+- **Test Procedure  - steps to execute a test case**
+- **Test Suite -  Categorizing test procedures in such a way they match your planning and analysis needs.**
+
+**Test Activities, Testware and Test Roles**
+
+- ISO/IEC/IEEE 29119-2 describes the test processes in ISO Standard
+- Testing is a process not simply just testing
+
+**Test Activities and Tasks**
+
+- Test process consists of the 7 groups of activities:
+1. Test Planning
+2. Test Monitoring and Control
+3. Test Analysis
+4. Test Design
+5. Test Implementation
+6. Test Execution
+7. Test Completion
+- Each activity may contain several more activities which may contain one or more tasks
+- Test activities are organized and carried out differently in different life cycles
+- Are usually implemented iteratively, not sequentially
+
+**1. Test Planning**
+
+- Define the objectives of testing
+- Decide what to test
+- Who will do the test
+- How will they do the testing
+- Define specific test activities to meet the objectives
+- Define when we can consider the testing complete, called the **exit criteria**
+
+**2. Test Monitoring and Control**
+
+- The ongoing activity of comparing actual progress against the test plan using test monitoring metrics defined in the test plan
+- Here is where we evaluate the exit criteria
+- Evaluating exit criteria is the activity where test execution results are assessed against the defined objectives
+
+**3. Test Analysis**
+
+- Knowing what to test and breaking it into test conditions
+- Any info or documentation we have is analyzed to identify testable features and define test conditions
+- **Test Basis  - any document we can use as a reference**
+    - Requirements specifications, such as BRD, SRS, user stories, use cases, etc.
+    - Design and implementation information, UML, UI, etc
+    - Code itself
+    - Risk Analysis reports
+- Identify features and sets of features to be tested
+- Define and prioritize the test conditions for each features based on analysis
+- Capture traceability = meaning we have test conditions for all features we have decided to test
+
+**4. Test Design**
+
+- Test design answers the question how to test
+- Designing sets of test cases and prioritizing them
+- Identifying test data to support test conditions
+- Designing the test environment
+- Capture bi-directional traceability
+
+**5. Test Implementation**
+
+- The testware necessary for test execution is created during test implementation
+- “Do we now have everything in place to run the tests?”
+- Create and implement test procedures during test implementation
+- Prioritizing the test procedures
+- Creating the test suites and arranging them
+- Building the test environment
+- Prepare and implement test data
+- Verifying the bi-directional traceability
+
+**Note:**
+
+Test conditions = test analysis
+
+Test Cases = test design
+
+Test procedures = test implementation
+
+Design data = test design
+
+Implement the data = test implementation
+
+**6. Test Execution**
+
+- Test suites are run during the execution following the schedule
+- Keeping a log of the testing and testware (pass or fail)
+- Run test cases in order manually or automated
+- Comparing actual results with expected results
+- Analyzing anomalies when there is a difference between actual and expected results
+- Reporting defects to devs for fix
+- Confirmation testing
+- Verifying and updating traceability
+
+**7. Test Completion**
+
+- Occur at project milestones
+- Collect data from completed tests to consolidate experience
+- Checking deliverables if they have been delivered
+- Documentation is in order
+- Create test summary report
+- Check whether all defect reports are don
+- Make sure delete confidential data
+- Handing over the testware to the maintenance team
+- Analyzing lessons
+- Using data for improvement of test process maturity

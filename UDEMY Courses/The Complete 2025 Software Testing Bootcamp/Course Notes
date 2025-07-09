@@ -416,3 +416,24 @@ Example: Grading system of  F to A
     
 - Example: 4.0 and up and all levels
 - So instead of 80 test cases, using pairwise you can only have up until 22 test cases
+
+**July 9, 2025**
+
+**Test Case Writing**
+
+- One of the most important skills of a software tester
+- A **test case** is a set of preconditions, inputs, actions and expected results developed based on the test conditions
+- A **test condition/test scenario** (functionality, etc) is only one line where as the test case is one document
+- Example: the one I do in google sheets
+
+**Parts of a Test Case:**
+
+1. Test Case Title: Verify login with valid username and password
+2. Precondition: User is already registered using valid credentials
+3. Test Steps: steps that need to be executed to run the test case
+4. Expected result
+5. Test Scenario (Test Suite): Where the test case belong to: example: Login
+    1. A group where the related test cases belong to
+6. Test Environment: Where Im going to test this application (example: Windows 11 - Chrome - Wifi Samsung)
+7. Actual Result: only fill it up after executing the test case
+8. Status: Not Started, Pass, Fail, Blocked/Skipped

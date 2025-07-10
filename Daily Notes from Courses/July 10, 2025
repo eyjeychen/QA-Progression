@@ -1,0 +1,12 @@
+July 10, 2025
+Writing Test Cases
+High-level test cases are broad, contains no data
+This was discussed in the ISTQB Foundation Level
+High-level test cases are good if you have testers with experience
+Copy of Testing Bootcamp 2024 Test Cases
+No two test cases should have the same title
+Two approaches:
+Execute all the valid scenarios first with all their priorities and then go to invalid scenarios
+Executing valid scenarios and some invalid scenarios depending on their priority level
+Section 7 - Test Case Writing Task
+Localization Testing refers to testing software with input data in a different language to ensure that it functions correctly and that language-specific elements are properly adapted

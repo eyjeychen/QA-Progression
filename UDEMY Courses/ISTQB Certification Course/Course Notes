@@ -254,3 +254,111 @@ Implement the data = test implementation
 - Handing over the testware to the maintenance team
 - Analyzing lessons
 - Using data for improvement of test process maturity
+
+**July 11, 2025**
+
+**Test Process in Context**
+
+- Not performed in isolation
+- Organizational software development processes typically include testing activities
+- Stakeholders provide financial funding for testing
+- Test depends on context
+- Factors Influencing Test Processes:
+1. Stakeholders
+2. Team Members
+3. Business Domain
+4. Technical Factors
+5. Project Constraints
+6. Organizational Factors
+7. SDLC
+8. Tools
+
+**Testware**
+
+- Any output work products like documents, reports, and lists created as part of the test processes
+- Test process organization variation implementation:
+1. Types of work products created per test process
+2. Ways those work products are organized and managed
+3. Names used for these work products
+- Testing Standards:
+1. ISO/IEC/IEEE-29119-1
+- Software Testing Concepts
+1. ISO/IEC/IEEE-29119-2
+
+-	Software Testing Process
+
+1. ISO/IEC/IEEE-29119-3
+- Test Work Products
+- 7 Different Work Products Per Different Test Process
+
+**Traceability Between Test Basis and Test Work Products**
+
+- Traceability of the test cases to requirements can verify if the requirements are covered by test cases
+- Good Traceability Supports:
+1. Analyzing Impact Changes
+2. Meeting IT governance criteria
+3. Making testing auditable
+4. Improving the understandability of test progress reports and test summary reports
+5. Relate IT terms and testing to stakeholders so they can understand them
+6. Providing information about progress
+- **Note:**
+    - Traceability has nothing to do in any kind of estimation
+    - Also has nothing to do with selecting data
+    - It also cannot determine risk level using traceability
+
+**Roles in Testing**
+
+- 2 Main Roles
+1. Test Manager
+- Test process management
+- Test planning and monitoring, etc
+- “How-to-do” things
+- **Test processes: Test planning, monitoring and control, Test completion**
+- Test coach -> outside of the team
+1. Tester
+- Overall responsibility is the technical aspect of testing
+- “Hands-on” to do things
+- **Test processes: Test analysis, Test design, Test implementation, Test execution**
+
+**Essential Skills and Good Practices in Testing**
+
+- Knowledge + Practice + Aptitude (natural talent)
+1. Testing Knowledge
+2. Thoroughness, carefulness, etc, attention to detail
+3. Good communication skills
+4. Analytical Thinking
+5. Technical Knowledge
+6. Domain Knowledge
+
+**Communication Skills for Testers**
+
+- Developers treat their codes as if its their kids. They don't take criticism lightly
+
+**Whole Team Approach**
+
+- Ability for a tester to work in a team
+- Contribute positively to team goals
+- Any team member with the necessary knowledge and skills can perform any task and everyone is responsible for quality
+- The team members share the same workspace
+- Team takes responsibility in all kinds of testing tasks
+- It generates team synergy that benefits the entire project
+- Improve team dynamics
+- Improve communication between team members
+
+**Independence of Testing**
+
+- Independence is not a replacement for familiarity
+- Degrees of Independent Testing (from dependence 1 to independence 5)
+1. The developer
+2. Tester from the developer team
+3. Independent test team
+4. Customer of specialist testers
+5. Outsourced test teams or testers
+- Pros:
+1. Independent testers are likely to recognize different kinds of failures compared to developers
+2. They can verify, challenge or disprove assumptions
+- Cons:
+1. More isolation from the development team
+2. Developers may lose a sense of responsibility for quality
+3. Maybe seen for bottleneck or blamed for delays in release
+4. May lack important information

@@ -1,0 +1,37 @@
+July 13, 2025
+Section 2 talks about:
+How testing is incorporated in other dev activities
+Different Levels and types of testing
+Maintenance Testing
+SDLC Models
+How activities are organized to create the software
+Vary according to:
+Objective
+Discipline
+Interest
+Time to market
+Documentation
+Types of activity performed at each stage
+Others
+Testing depends on the SDLC model
+Categories of SDLC Models
+Sequential Development Models
+Linear with sequential flow of activities
+No overlaps of phases
+Iterative &Incremental Development Models
+Short cycle of activities that can be revisited any time
+Sequential Development Models: Waterfall
+Oldest and well known
+Each stage must be completed before moving on to the next stage
+Requirements Phase
+From the user
+Systems specification document
+Functional specifications
+Design Phase
+Global design or architecture design or high-level design to map the system requirements
+Detailed design or low-level design: very specific about the functions
+Coding Phase
+Developers code the detailed design of each module to software
+Testing Phase
+Towards the end of the project lifecycle
+*Waterfall model is only a good model for very specific circumstances

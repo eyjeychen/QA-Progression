@@ -1,0 +1,15 @@
+July 14, 2025
+V-Model
+A sequential model
+Testing needs to begin as early as possible in the lifecycle
+The model integrates testing throughout the entire development phase
+The 4 Test Models in V-model
+Component Testing
+Search defects in implemented components
+Integration Testing
+Test interfaces and interactions between different components
+System Testing
+Behavior of the whole system
+Acceptance Testing
+Conducted whether or not to accept the system
+E.g client UAT

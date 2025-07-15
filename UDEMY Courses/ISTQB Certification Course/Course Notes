@@ -415,4 +415,99 @@ Behavior of the whole system
 Acceptance Testing
 Conducted whether or not to accept the system
 E.g client UAT
+**July 15, 2025**
 
+**Iterative Incremental Development**
+
+- Can be separated
+- Incremental = building a system in pieces
+- Iterative = built in a series of cycles where every piece can be used unlike incremental
+- In iterative and incremental software, each cycle involved with everything we have in an SDLC
+- Customers are heavily involved
+- Examples of Iterative - Incremental models:
+1. Rational Limited Process = each iterations are long and the increments are large
+2. Spiral/Prototyping = creating experimental increments
+3. Scrum = part of agile. Each iteration is short
+4. Kanban = part of agile. Implemented with or without a fixed length of iterations
+- Regression testing is increasingly important as the system grows
+- Automation testing should be considered for faster testing in each cycle
+
+Good Testing Practices in SDLC
+
+1. In each development activity there is a corresponding testing activity
+2. Each test level has specific objectives
+3. Early testing in analysis and design; testing for every test level should begin early
+4. Testers should be involved in reviewing documents or work products as soon as a draft is available
+
+**What is Agile?**
+
+- Ability to create and respond to change for good business development
+- Ability to quickly reprioritize use of resources
+- Not a project management methodology
+- Not a development framework or lifecycle
+- It is a philosophy
+- It is lightweight
+
+**Manifesto for Agile Software Development**
+
+1. Individuals and interactions over process tools
+2. Customer collaboration over contract negotiation
+3. Working software over comprehensive documentation
+4. Responding to change over following a plan
+
+**Scrum**
+
+- Most agile development framework
+- Instruments and Practices of Scrum:
+1. Sprints
+- Fixed length
+1. Product Increment
+- Each sprint produces a product called an implement
+1. Product Backlog
+- Prioritized list of planned product increments in a log
+1. Sprint Backlog
+- Selects high priority list from product backlog and puts it into sprint backlog
+1. Timeboxing
+- Short fixed duration of periods of time in which activities are implemented
+- Daily stand up meetings in 15 mins in 2 weeks (timeboxed)
+1. Transparency
+- Reporting of progress
+
+Scrum Roles:
+
+1. Scrum Master
+- Like a project management head
+- A coach
+1. Product Owner
+- Represents the customer which manages the product backlog
+1. Development Team
+
+**Impact of the Software Development Lifecycle of Testing**
+
+1. Scope and timing of test activities
+2. List of details of test documentation
+3. Choice of test technologies and test approaches
+4. Extent of test automation
+5. Roles and responsibilities of a tester
+
+**Testing as a Driver for Software Development**
+
+- TDD, ATDD BDD approaches follows the test-first approach since the tests are defined before the code is written
+- Supports software development module
+1. TDD (Test-Driven Development)
+- Tests are written before the code is written
+- Directs coding through test cases instead of extensive software design
+1. ATDD (Acceptance Test-Driven Development)
+- Define the acceptance criteria and tests during the creation of user stories as part of the system design processes
+1. BDD (Behavior Driven Development)
+- Testing the code based on the expected behavior
+
+Differences between the 3:
+
+1. TDD
+- Concentrates more on developer
+- Developer makes unit tests to make sure the code works
+1. ATDD
+- Involves the customer from the beginning
+1. BDD
+- Defines the expected behavior of the system so anyone can understand

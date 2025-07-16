@@ -1,0 +1,26 @@
+**July 16, 2025**
+
+**DevOps and Testing**
+
+- Isolation Issues:
+1. Slow Software Delivery
+2. Frequent errors and downtime
+3. Inefficient processes
+4. Limited visibility
+5. Resistance to change
+- Devops is a combination of development and operations
+- CI/CD = continuous integration and continuous delivery
+- Combination of these teams uses practices to automate processes
+- Use a tech stack and tooling that helps them operate and evolve apps
+- Introduces collaborative automated and approach to software delivery
+- Promotes team autonomy, fast feedback, integrated tools and technical practices like CI and CD
+- Benefits of Devops on Testing:
+1. Fast feedback on the code quality
+2. CI promotes shift-let approach
+3. Automated Testing: devops promotes this
+4. Increases view on non-functionality quality characteristics (performance)
+5. Efficient regression testing
+- Cons of Devops on Testing:
+1. Devops delivery pipeline must be defined and establish
+2. CI/CD tools must be introduced and maintained
+3. Test automation requires additional resources

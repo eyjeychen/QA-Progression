@@ -1,0 +1,41 @@
+July 17, 2025
+Shift-Left Approach
+Principle of early testing
+Does not wait for code to be implemented before testing
+Shift-Left approach does the following:
+Review specification
+Write test cases before code is written
+Continuous integration and continuous development
+Begin implementing an automated process
+Perform non-functional testing on component test-level
+Retrospectives and Process Improvements
+Does not include the end users
+Retrospectives are frequent process improvements
+Done at the end of each iteration
+Notes what is and is not successful
+Benefits of Retrospectives in Testing:
+Increased effectiveness and efficiency
+Increased quality of testing
+Improved quality of test basis
+Better collaboration
+Test Levels
+Groups of test activities
+Unit testing-> component testing -> component integration testing -> system testing -> system integration testing -> acceptance testing
+Characterizing Test Levels:
+Specific Objectives
+Test basis
+Test objects
+Specific approaches and responsibilities
+Typical defects and failures
+The 5 Main Test Levels:
+Component Testing
+Test components in a system
+Testing unit per unit or component by component
+Component Integration Testing
+Testing interactions between components
+System Testing
+Overall behavior of the entire system
+System Integration Testing
+Several interfaces of a system
+Acceptance Testing
+Validation and readiness for deployment

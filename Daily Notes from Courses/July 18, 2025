@@ -1,1 +1,43 @@
+**July 18, 2025**
 
+**Component Testing**
+
+- Lowest level of testing
+- Small pieces of code developed by developers
+- Unit or module testing
+- Tested in isolation
+- Done by developers
+- Objectives of component testing
+    - Reducing risk of delivery a bad component
+    - Finding defects in the component
+- Examples of Work Products that can be used as a test basis for component testing
+    - Detailed design
+    - Code
+    - Data Model
+    - Component Specifications
+- A stub is a dummy code used in a place of a cold component
+- A driver is a dummy code used in place of a collar component
+- Examples of typical defects and failure in Component Testing
+    - Incorrect code and logic
+    - Data flow problems
+    - Incorrect functionality
+
+**Component Integration Testing**
+
+- Putting units or components together to build the system
+- Testers concentrate solely on the integration itself
+- Examples of Work Products that can be used as a test basis for Component Integration Testing
+    - Software and system design
+    - Sequence diagrams
+    - Uses cases
+    - Architecture at component or system level
+    - Workflow
+- Usually part of the continuous integration process
+- Focuses on the interactions and the interfaces between integrated components
+- Usually carried out by developers and generally automated
+- Examples of typical defects and failure in Component Integration Testing
+    - incorrect or missing data
+    - Incorrect sequencing or timing of interface calls
+    - Interface mismatch
+    - Failures in communication between components
+- Larger integration or the “big bang” where all components are integrated can leave to problems as it is harder to isolate which component caused the defect

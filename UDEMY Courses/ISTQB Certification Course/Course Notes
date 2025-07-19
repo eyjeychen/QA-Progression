@@ -623,3 +623,135 @@ Validation and readiness for deployment
     - Interface mismatch
     - Failures in communication between components
 - Larger integration or the “big bang” where all components are integrated can leave to problems as it is harder to isolate which component caused the defect
+**July 19, 2025**
+
+**System Testing**
+
+- Whole system
+- E2E testing both functional and non-functional
+- Test environment should correspond to the final target or production environment
+- Work Products used:
+    - System Requirements Specification
+    - Use Cases
+    - Epics and user stories
+    - Models and system behavior
+    - Risk Analysis Reports
+    - System and user manuals
+- Test Objects
+    - Applications
+    - Hardware/Software Systems
+    - Operating Systems
+    - Systems Under Test (SUT)
+    - System configuration and configuration data
+
+**System Integration Testing**
+
+- interactions /interfaces between systems
+    - Example is web services or external system
+- Objectives are the same for component integration testing
+
+**Acceptance Testing**
+
+- Yes or no testing; “should we release the system?”
+- Behavior and capabilities of the whole system
+- Produce information to assess the system’s readiness for deployment and use by the customer or end-users
+- Typical Defects and Failures
+    - System workflows do not meet user requirements
+    - Business rules are not implemented correctly
+    - Non-functional requirements
+    - Does not satisfy contracted or regulatory requirements
+- Common forms of Acceptance Testing
+1. User Acceptance Test
+- Intended users
+1. Operational Acceptance Test
+- System administrator’s point of view
+1. Contractual and Regulatory Acceptance Test
+- Users or independent users
+- Government and legal regulations
+1. Alpha and Beta Testing
+- Alpha is inviting potential users in own developer site
+- Beta testing is inviting potential users but they test in their own locations
+
+**Test Types**
+
+- Group of test activities aimed at testing specific characteristics of a software system
+    - Functional Testing
+    - Non-functional Testing
+    - Black-box testing
+    - White-box testing
+
+**Functional Testing**
+
+- “What” it does
+- Should be performed at all test levels
+- Objectives of functional testing
+1. Functional Completeness
+- Functions covers all the specified tasks and user objectives
+1. Functional correctness
+- Provide correct results
+1. Functional appropriateness
+- Fulfill the needs of the user
+
+**Non-functional Testing**
+
+- “How well it behaves”
+- Eg. performance testing, security, maintenance, flexibility
+- ISO/IEC 25010 for quality characteristics
+- Performed at all test levels and is done as early as possible
+
+**Black-box Testing**
+
+- Specification-based testing
+- Testing w/o looking at its internal code or implementation details
+- Derives test cases and test scenarios from external documentation such as req. Specification and design documents
+
+**White-box Testing**
+
+- Testing w/ knowing how the system is structured
+- Cover underlying structure of the system by tests
+
+**Relationship b/w test types and test levels**
+
+- Unnecessary for all software to have every test type represented
+- Important to run appropriate test types at each level
+
+**Confirmation and Regression Testing**
+
+- Confirming if the defect has been fixed
+- Regression testing helps to find out if the fix has introduced a new defect somewhere else
+    - Test areas that was already tested
+    - Performed at all test levels so its better to be automated
+- Regression test sample:
+- 
+
+|  | EX 1 | EX 2 | EX 3 |
+| --- | --- | --- | --- |
+| TC 1 | (1) F | (4)P | (7) P |
+| TC 2 | (2) P | (5)  F | (8)  P |
+| TC3 | (3)F | (6)F | (9) P |
+- Regression test: 5 and 7
+- Confirmation test: 4, 6, 8, 9
+- If we see a passed test and repeat it on the next execution then it is a **regression test**
+- If we see a failed test then executed again then it is a **confirmation test**
+
+**Maintenance Testing**
+
+- Perform impact analysis before a change is made
+- Takes place in a live system or a system in production
+- Testing when any changes are made as part of maintenance
+
+**Triggers for Maintenance and Maintenance Testing**
+
+1. Modification
+- Enhancement, upgrades
+1. Upgrades or Migration
+- One platform to another
+- Data conversion
+1. Retirement
+- When an application reaches the end of its life
+
+**Impact Analysis**
+
+- Determining how the existing system maybe affected by changes
+- Used to help decide how much regression testing is needed to do
+- Identify impact of a change on existing tests

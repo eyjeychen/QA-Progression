@@ -755,3 +755,42 @@ Validation and readiness for deployment
 - Determining how the existing system maybe affected by changes
 - Used to help decide how much regression testing is needed to do
 - Identify impact of a change on existing tests
+
+**July 22, 2025**
+
+**Static Testing Basics**
+
+- Is testing without executing code
+- First line of defense against defects
+- Relies on examining the software products
+- Involves manual reviews and static analysis
+- Static Analysis
+    - Essential for safety-critical computer systems
+    - Part of security testing
+    - Incorporated into automated tests
+    - Helps to identify problems prior to dynamic testing
+- Static Analysis Test Objectives
+    - Enhancing quality
+    - Finding Bugs
+    - Evaluating features
+- Involves review techniques
+    - Ensures user stories are complete and understandable
+
+**Differences between static and dynamic testing**
+
+- Static:
+    - Finds defects
+    - Improve consistency, and internal quality
+    - Can be applied to non-executable work products
+- Dynamic:
+    - Finds failures
+    - Focuses on externally visible behaviors
+    - Can only be applied to executable code
+- Typical Defects found in static testing:
+1. Requirements Defects
+2. Design Defects
+3. Coding Defects
+4. Deviations from standard
+5. Incorrect interface specification
+6. Security vulnerabilities
+7. Gaps and inaccuracies in test basis

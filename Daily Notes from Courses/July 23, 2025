@@ -1,0 +1,17 @@
+**July 23, 2025**
+
+**Work Products that Can Be Examined by Static Testing**
+
+- Any written work product can be reviewed by static testing
+    - Specifications
+    - Epics, user stories, acceptance criteria
+    - Architecture and design specifications
+    - Source codes
+    - Testware
+    - User guides
+    - Web pages
+    - contracts , project plans, etc
+    - models
+- A compiler - a static analysis tool
+    - Example: grammar checking tool
+- Some work products that are not understandable or readable by human language are not able to be identified by static testing

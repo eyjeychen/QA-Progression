@@ -1,1 +1,118 @@
 Will put notes here from the study from the cafe
+**July 26, 2025**
+
+**Work Products that Can Be Examined by Static Testing**
+
+- Any written work products that a human can withstand
+- Specifications
+- Epics, user stories and acceptance criteria
+- Architecture and design specifications
+- Source Code
+- Testware
+- User guides
+- Web Pages
+- Contracts, projects plans, schedules, budget
+- Models, such as activity diagram
+
+**Benefits of Static Testing**
+
+- Early detection of defects
+- Identification of defects
+- Preventing Defects
+- Increasing development productivity
+- Reduced development timescales due to lesser bugs
+- Reduced testing time and cost
+- Reducing total cost of quality
+- Improving communication between members in reviews
+- Evaluate quality and build confidence in work products
+
+**Benefits of Early and Frequent Stakeholder Feedback**
+
+- Prevent misunderstanding about requirements
+- Ensure changes to requirements are understood and implemented earlier
+- Helps development teams to improve understanding
+- Allows teams to focus prioritizing these features
+
+**Work Product Review Process**
+
+- Informal reviews do not follow a defined process
+- Formal reviews follow procedures
+- ISO ECE 20246 is a review process
+- Five Groups of Activities in the Review Process
+1. Planning
+- Defining the scope
+- Estimating effort and timeframe
+- Identifying review characteristics
+- Selecting people who will participate in the review
+- Define entry and exit criteria
+1. Review Initiation
+- All reviewers should know what they are reviewing
+- Distributing the work produced
+- Explaining the scope
+- Answering questions
+1. Individual Review
+- Each of the participants will review alone
+- Noting potential defects
+1. Communication and Analysis
+- Communicate identified potential defects
+- Evaluate quality characteristics
+- Evaluate review findings
+1. Fixing and Reporting
+- Defect reports
+
+**Roles and Responsibilities in Reviews**
+
+1. Author
+- Creates work product for review
+- Fix defects in the created work product
+1. Manager
+- Review Planning
+- Execution of reviews
+- Assign staff, budget and project schedules
+- Control decisions made
+1. Moderator or Facilitator
+- Effective planning and review meetings
+- Ensures no bug fixing will be discussed in the review meeting
+- Mediates
+1. Review Leader
+- Overall responsibility for the review
+- Decides who will be involved and organizes the when and where
+1. Reviewers
+- Subject matter experts
+- People in the projects
+- Potential defects on the work products
+1. Scribe/Recorder
+- Collects potential defects found in the review meeting
+
+**Review Types**
+
+- Focus of any review depends on the agreed objectives of the review
+- Review types depend on:
+1. SDLC Model
+2. More mature process = more formal review
+3. Complexity of the work product
+4. Legal on regulatory requirements
+5. Need for audit trail
+- Types of Review:
+1. Informal Review
+- “Pair review”
+- Quickly find defects or quickly solve process
+- Not usually documented for review
+- No process and is quick
+1. Walkthrough
+- Author walkthroughs the document
+- Meeting is led by the author
+- Main purpose is learning and gaining understanding
+1. Technical Reviewing
+- Focuses on achieving consensus on a technical aspect
+- Evaluating work
+- Reviewers are experts in their field
+- Review meeting is optimal
+- Scribe is mandatory
+- Define lofs
+- Keyword: led by a moderator
+1. Inspection
+- Most formal type of review
+- Purpose: detecting potential defects
+- Scribe is mandatory
+- Led by a trained moderator

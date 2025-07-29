@@ -1,1 +1,37 @@
+**July 28, 2025**
 
+**Introduction to Test Analysis and Design**
+
+**Test techniques**
+
+- Each test techniques tackles a different situation
+- Helps the tester with test analysis (what to test) and test design (how to test)
+- Define test conditions, test data and identify coverage items
+- Effective Testing
+    - Find more faults
+    - Focus attention on specific types of faults
+    - Know you're testing the right thing
+- Efficient Testing
+    - Find faults with less effort
+    - Avoid duplication
+    - Systematic techniques are measurable
+
+**Categories of Test Techniques**
+
+1. Black-box Techniques
+- Tests are derived from a specification of a system
+- “behavior-based “ techniques meaning you only know how the system should behave
+- Applicable to both functional and non-functional
+- Concentrate on input and output without reference ot its internal structure
+1. White-box Techniques
+- Deriving test cases directly from the structure of the system
+- “structure-based”
+1. Experience-based Techniques
+- Based on the stakeholder’s experience
+- Depends heavily based on the tester’s skills
+
+**Black-box Test Techniques**
+
+- Characteristics of Black-box:
+    - Test conditions, test cases, etc are derived from a test basis that may include software requirements, specifications, etc
+    - EP, BVA, Decision Table Testing, State Transition Testing

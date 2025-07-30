@@ -965,3 +965,31 @@ Validation and readiness for deployment
 - Characteristics of Black-box:
     - Test conditions, test cases, etc are derived from a test basis that may include software requirements, specifications, etc
     - EP, BVA, Decision Table Testing, State Transition Testing
+**July 29, 2025**
+
+**Equivalence Partitioning**
+
+- Based on the idea that inputs are divided into partitions that exhibit similar behavior
+- Example of equivalence partitions:
+    - Age < 20
+    - 20 <= age <= 50
+    - Age > 50
+- Example of equivalence partitions:
+- 
+    
+    [](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCn92HbZT-A-lA9vqWaa3oI3Gug_e3RWKHhMQ-aEVLNGma83zKjdMmbkICtjyapU6IpxYJ56cOZLm-St21CkVRrXw5zd3t4CXPTOGP6HSy258v7Zjvji7qtZrANYlQ6x4eGU_w?key=s7mNb_USJyD67HQorXBaxA)
+    
+- Valid values = values should be accepted by the system, vice versa is invalid values
+- Each value must belong to one and only one equivalence partition
+- One value from each partition should be selected
+- When invalid partitions are used in test cases, they should be tested individually
+- Can be identified for any data element related to the test object
+- Any partition may be divided into sub-partitions
+- Coverage is measured as the number of equivalence partitions tested by at least one value divided by the total number of equivalence partitions
+- Example:
+    - 1. AB36P (covers partitions 1, 4,6)
+    - 2. Very Long (Covers partition 3)
+    - **Coverage: 4/7 x 100 = 57%**
+- In creating partitions, ask yourself “**would this value change the way the software behaves?”**
+- If **YES,** then every value for the input should be in a separate partition
+- If **NO**, then all the values can reside in a single partition

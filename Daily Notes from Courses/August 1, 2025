@@ -1,0 +1,18 @@
+**August 1, 2025**
+
+**Solving Equivalence Partitions**
+
+- Understand to use only one value from each partition unless you have to
+- If there is an answer option that users more than one value from the same partition it is most likely to be a wrong answer
+
+**Boundary Value Analysis**
+
+- Error tends to cluster around boundaries
+- Works hand in hand with EP
+- BV is the min max values of a partition
+- Example:
+- Given a range of 20 to 50
+    - 2 value BVA = 19, 20, 50, 51
+    - 3 value BVA = 19, 20, 21, 49, 50, 51
+
+**Note:** in this day I focused on the questions for EP and for BVA, for august 2 that will be the same process

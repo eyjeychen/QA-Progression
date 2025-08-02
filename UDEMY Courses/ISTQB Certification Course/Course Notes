@@ -47,6 +47,50 @@ Other reasons
 False-negative
 We did something wrong but we cannot find the defect
 
+**August 2, 2025**
+
+**Decision Table Testing**
+
+- Different combinations of conditions produce different outcomes or actions
+- It is a “combinatorial test techniques”
+- A decision table lists all the input conditions at the top of the table and all the actions of the system at the bottom of the table
+- Decision Table Testing in ISTQB Exams:
+1. One example might give you a table and a situation of a specific combination of the conditions will ask you what the action will be
+2. Some might give ready made test cases and ask you what are the remaining needed test cases to achieve full coverage
+3. Hardest will be and ask you to build the table and determine how many test cases are needed
+- **Coverage for decision table**: # of decision rules tested by at least one test case/ total number of decision rules
+- Decision table testing helps to identify all important combinations of decisions
+- Risk-based approach: eliminate the rules that are less risky if we didn't exercise them
+
+**State Transition Testing**
+
+- State transition techniques is concerned with systems that may exhibit different response based on depending on current conditions or previous history
+- State transition diagram: shows possible software states as well as how the software enters and exits between states
+- A state table records all possible both valid and invalid transitions and their effect on all the possible states
+- Different State Transition Coverage:
+1. All state coverage
+- Test cases must ensure all states are visited
+- **Coverage** is measured by: # of visited states/ total number of states
+1. Valid Transitions Coverage
+- Also called “zero switch coverage”
+- Test cases must exercise all the valid transitions
+- **Coverage is # of exercised valid transitions/ total valid transitions**
+1. All Transitions Coverage
+- Includes invalid transitions
+- Its easier to use a transition table to calculate the all transitions coverage
+- **Coverage is # of valid invalid and invalid transitions exercised by TCs / total number of valid and invalid transitions**
+- **State transition testing** is testing only one invalid transition in a single test cases helps to avoid fault masking
+- **Fault masking** is where one defect prevents the detection of another defect
+- A **trigger** is an event that may cause a transition
+- A **guard** is a boolean condition that permits or blocks the transition
+    - If guard is TRUE then transition OK
+    - If guard is FALSE then transition BLOCK
+    - Is usually represented within brackets after an event name
+- **Transition behavio**r is an activity that executes while the transition takes place
+
+**Note:**
+
+State transition testing is widely used within the embedded software industry
 Root Cause Analysis 
 Helps in preventive measures for the software in the near future
 

@@ -1,0 +1,5 @@
+notes:
+
+*re-reviewed BVA, Decision Table, State transition
+
+Note: the BVA values are usually the BVA AND the value of its NEIGHBOURING partition

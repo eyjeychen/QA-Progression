@@ -1055,3 +1055,26 @@ Validation and readiness for deployment
     - 3 value BVA = 19, 20, 21, 49, 50, 51
 
 **Note:** in this day I focused on the questions for EP and for BVA, for august 2 that will be the same process
+
+
+August 6, 2025
+White box test techniques
+Also called structure-based testing
+Since you have information on the structure of the test object
+Info such as how the database and system is built, modules are organized and access to the source code itself
+Example: 
+Age is used in a byte so you'll use values outside of a byte
+
+Characteristics of white box techniques
+TCS are derived from a test basis that may include anything related to the structure of the software 
+Concept of coverage is heavily used. Measured based on the items within a selected structure
+Specifications are often used as an additional source of information to determine expected outcome of test cases
+Can be used at all test levels
+White box testing techniques are used to assess the amount of testing performed by tests 
+Statement Testing and Coverage
+Statement testing exercises the executable statements in the code
+Statement coverage is determined by the number of executable statements covered by the executed test cases/ Total number of statements
+Statement coverage is the weakest white-box techniques
+In statement coverage, size of the test cases do not matter
+Statement coverage can't tell us anything about how many statement in the code cant be executed
+100% coverage means every executable statement was executed at least once

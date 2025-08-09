@@ -1,0 +1,34 @@
+August 9, 2025
+Branch Testing and Coverage
+Does not look at the code from the statement’s point of view
+Used to test every possible branch in the control flow graph of a program
+Every branch in the code is executed at least once
+Example: an IF statement has 2 branches (one branch for TRUE, one branch for FALSE outcome
+For a SWITCH statement, there is a branch for all the possible case
+To get the total number of branches = multiply total number of IF statements by 2 (2 IF Statements = 4 branches)
+Statement testing may provide less coverage than branch testing
+Branch coverage helps to find defects in code where other tests have not taken both true and false outcomes
+100% branch coverage guarantees 100% statement coverage but not vice versa
+The Value of White-box testing
+Is able to detect some of the intended features by understanding the logic used to implement such features
+Can be used in static testing 
+Can be used in dry runs of the code 
+Well suited to review code that is not yet ready for execution 
+Can be used as a coverage measurement technique
+Adding more test cases to increase coverage
+Experience-based Test Techniques
+Error guessing
+Exploratory Testing
+Checklist-based
+Are derived from the user’s and tester’s skil land intuition 
+Helps to identify tests that were not easily identified by other systematic techniques
+May not be measurable by coverage
+Derived from a test basis that include tester’s and user’s experience
+Error Guessing
+Used to anticipate the occurrence of errors ,defects and failures based on the tester’s knowledge
+Items such as how has the application worked in the past? What types of mistakes do the developers tend to make?
+Not intended to be used by itself but rather support other test techniques
+Effectiveness of the error guessing technique varies heavily on the tester’s experience
+Fault attack = enumerate possible list of faults and defects
+
+

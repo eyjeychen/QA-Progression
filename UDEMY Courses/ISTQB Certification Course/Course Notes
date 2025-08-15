@@ -1112,3 +1112,23 @@ Effectiveness of the error guessing technique varies heavily on the tester’s e
 Fault attack = enumerate possible list of faults and defects
 
 
+**August 15, 2025**
+
+**Exploratory Testing**
+
+- Use the tester’s experience to test the software w/o going into the formal cycle of writing test conditions, test cases and test procedures
+- Keyword is “simultaneously” create all of these (writing test conditions, test cases and test procedures)
+- More effective if the tester has experience
+- Conducted using “session-based testing” to structure the activity or meaning fixed duration
+- Uses a **test charter** which contains test objectives which focuses on critical areas
+- **Test charter can be produced as part of the test analysis**
+- Use **test session sheets**  to document the steps followed and the discoveries made
+- Is most useful when there are few or inadequate specifications or significant pressure on time
+
+**Checklist-based Testing**
+
+- Like a to-do list
+- In this testing, a tester designs, implements, and executes tests to cover test conditions from a checklist
+- Checklists can be generic or specialized
+- Should not contain items that are checked automatically, items better suited as entry/exit criteria, items that are too general
+- If checklists are high-level, some variability in the actual testing is likely to occur so it leads to better coverage

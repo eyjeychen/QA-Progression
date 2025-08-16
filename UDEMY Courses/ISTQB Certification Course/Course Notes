@@ -1132,3 +1132,74 @@ Fault attack = enumerate possible list of faults and defects
 - Checklists can be generic or specialized
 - Should not contain items that are checked automatically, items better suited as entry/exit criteria, items that are too general
 - If checklists are high-level, some variability in the actual testing is likely to occur so it leads to better coverage
+
+
+**August 16, 2025**
+
+**Collaboration-based Test Approaches**
+
+- Avoid getting defects in the first place
+- Defect avoidance by collaboration and communication
+
+**Collaborative User Story Writing**
+
+- Specification problems can result from a user’s lack of insight in their needs
+- In collaborative user story writing requirements are captured from developers, testers and business representatives
+- User Story
+    - Written from the point of value of the user
+    - Are small, understandable chunks of business functionality
+    - Written in the following format as <role> I want <functionality> so that <business benefit>
+    - Must address both functional and non-functional characteristics
+- **INVEST technique in user story writing:**
+    - Independent
+    - Negotiable
+    - Valuable
+    - Estimatable
+    - Small
+    - Testable
+- The 3Cs Concepts in User Story Writing
+1. Card
+- Physical media describing a user story
+- Identifies requirements so it must be accurate since it will be used in the product backlog
+1. Conversation
+- Explains how the software will be used
+- Can be documented or verbal
+- Begins during the release planning phase
+1. Confirmation
+- Agreeing on the acceptance criteria so you know when your are done
+
+**Acceptance Criteria**
+
+- Part of the user story
+- Provide developers and testers with an extended vision of the activities that business representatives will validate
+- Conditions that the developers must implement to be accepted by the stakeholders
+- Uses of Acceptance Criteria
+1. Define the scope of the user story
+2. Reach consensus among the stakeholders
+3. Describe both positive and negative scenarios
+4. Serve as a basis for the user acceptance testing
+5. Allow accurate planning and estimation
+- Should Address the ff: (Acceptance Criteria
+1. Functional behavior
+2. Quality Characteristics
+3. Scenarios
+4. Business Rules
+5. External Interfaces
+6. Constraints
+- Design/implementations that restricts the options for the developers
+1. Data Definitions
+- Ways to Write Acceptance Criteria
+1. Scenario-oriented
+- given/when/then format in BDD
+1. Rule-oriented
+- Rules that are listed down briefly
+
+**Acceptance Test-Driven Development (ATDD)**
+
+- A test first approach where the test cases are created before implementing the user story
+- To create ATDD test cases steps:
+1. Specification Workshop
+2. Create the test cases (can be manually or automated)
+3. Positive test cases first
+4. Negative test cases
+5. Non-functional characteristics

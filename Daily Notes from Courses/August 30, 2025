@@ -1,0 +1,70 @@
+August 30 2025
+
+Test Planning
+Test strategy or test policy provides a generalized description of the test process, usually at the product or organizational level
+The test strategy Describes at a high level the "how" of testing for an organization
+The test approach is the implementation of the test strategy
+"How we will test this project"
+A test plan is how we will implement this test approach for this project
+Purpose and Content of a Test Plan
+A project plan for the testing work to be done in development or maintenance project
+A test plan is used as a vehicle for communication with other members of the project team
+Ensures there is a list of tasks and milestones
+What to do, whenm how, by whom, etc
+Purposes include:
+Identifying objectives
+Documents the needed resources
+Documents processes
+Documents the means or how to satisfy the test objectives and test schedule
+Decide test results will be evaluated
+Means of communications with team members
+Guides the tester's thinking
+Test Plan Elements:
+Context of Testing:
+Defining the test objectives
+Testing scope
+Test basis
+Assumptions and constraints of the test project:
+Assumptions
+Constraints
+Stakeholders
+Communication
+Risk Register
+Budget and Schedule
+Test Approach
+This is where to explain how we will perform the testing by defining the test levels test types test techniques test deliverable, entry and exit criteria
+Agile Planning vs. Traditional Planning
+Agile projects have high degrees of uncertainty and risks
+Therefore in agile projects, creating detailed upfront plans is problematic because the requirements in agile projects are progressively elaborated
+Therefore, the planning in agile is performed in short intervals throughout the lifecycle
+Difference between agile and traditional planning is that agile planning is done at a high level in the beginning of the project
+Agile Planning Stages
+First level: product vision
+Second-level: Product planning
+Release Planning and Iteration planning
+Release Planning
+Iteration: short development period
+Release: Group of iterations
+Looks ahead to the release of a product
+A release often takes a few months, say 3-9 months
+Release plans are high level
+Factors that May trigger release plans:
+Delivery capabilities
+Technical Issues
+The discovery of new markets and opportunities
+New competitors
+Business threats
+Tester's Contribution to Iteration and Release Planning
+Release planning: release of a product, serves as a basis for the test approach and test planning
+Testers involved in Release Planning:
+Participate in writing testable user stories and acceptance criteria
+Participate in project and quality risk analyses
+Estimate test effort associated with user stories
+Determine the test approach
+Planning the testing for the release
+Testers involved in Iteration Planning:
+Participate in the Detailed Risk Analysis of User Stories
+Determine the Testability of User Stories
+Break Down User Stories into Tasks
+Estimate Test Effort for All Testing Tasks
+Identify and Refine functional and non-functional aspects of the test object

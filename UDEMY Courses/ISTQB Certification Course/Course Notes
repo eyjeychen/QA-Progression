@@ -1272,3 +1272,209 @@ Tester’s Contribution to Iteration and Release Planning
 •	Break Down User Stories into Tasks
 •	Estimate Test Effort for All Testing Tasks
 •	Identify and Refine functional and non-functional aspects of the test object
+August 31, 2025
+Entry and Exit Criteria
+Entry criteria or Definition of Ready define preconditions for undertaking a given test activity
+Typical entry criteria include:
+Availability of testable requirements
+Test items that have met the criteria
+Test env and readiness
+Test tools
+Test data
+Budget
+Initial quality level of a test object
+Exit criteria are used to determine when a test activity has been completed or when it should stop
+Typical exit criteria include:
+Definition of done
+Planned tests have been executed
+Defined level of coverage has been achieved
+Number of unresolved defects is within agreed limit
+Defects are low evaluated levels of quality 
+No of failed test cases
+Static testing has been perfomed
+All defects are reported
+Regression tests are automated
+Costs
+Exit when the time is over
+Entry and exit criteria should be defined for each test levlw and test type and will differe based on the test objectives
+Estimation Techinques 
+Estimate the effort needed to execute the plan
+estimated effort is used to estimate other elements like the time needed, budget, resources
+Based on assumptions and subject for error
+Estimation for small taks are usually more accurate than the large ones hence why bigger tasks can be subdivided into smaller ones
+Estimation categoies usually have:
+Metric-based techniques
+Expert-based techniques
+Metric-Based Techniques
+Collect data from previous projects or Iterations to estimate data (so much like historical artifacts for forecasting)
+Depends if the accuracy of the collected data is close
+1. Estimation Based on Ratios
+Figures are collected from previous projects to derive “standard ratios” for SIMILAR projects
+Example: In the previous project where it took 1000 hours to do and 300 hours of testing effort, in the new project that took 2000 hrs to do, we can estimate that the testing effort would take around 600 hours
+2. Extrapolation
+Makes measurements as early as possible in the project to gather data
+With enough observations, the effort required can be estimated by extrapolating this data
+Makes sense in iterative projects
+Expert-based Approach
+Depends on using the experience of some stakeholders to derive an estimate
+Business experts
+Test Process consultants
+Developers
+Analysts & Designers
+Anyone with knowledge of the application to be tested or the tasks involved in the process
+1. Wideband Delphi
+Iterative
+Expert-based technique
+Experts make experience based estimations
+Asking each expert to provide an estimate of the effort then collaborate to discuss each reasoning and finally asked to make a new estimation based from each other’s feedback
+Helps build a complete task list
+Helps eliminate bias in estimates 
+More committed to estimates
+Collaboration helps with eliminating bias
+Recognize value of Iteration
+Planning poker is a commonly used technique and is a variant
+Estimates are usually made using cards with numbers representing the effort size
+2. Three-point Estimation
+Three estimations are made by the experts
+"0" represents an optimistic estimate everything will progress smoothly 
+"p” represents a pessimistic estimate assumes everything will go wrong 
+"m”represents most likely estimate which is a mix between 0 and p 
+"e”is their weighted mean
+Beta Distribution or known as PERT Project Evaluation 1 Review Technique.  E=(0+4*M +P)/6.
+Calculate Measurement Error Standard Deviation SD = (P-0) / 6
+Benefits of Using 3-point estimation technique
+Improved accuracy since it considers multiple scenarios 
+Risk Assessment which helps assess risks 
+Enhanced Decision-making 
+Stakeholder communication for transparency More Realistic Planning with a chievable project goals 
+Continuous improvement which helps identify areas of improvement
+Test Case prioritization 
+Commonly used strategies in prioritization are 
+1.) Risk-based Prioritization 
+order of test execution is determined by the results of risk analysis 
+test cases with the most criticalor high-impact risks are executed first
+2.) Coverage-based Prioritization
+Focuses extent of coverage by the test cases 
+the goal is to maximize coverage by executing test cases that have the highest coverage
+3.) Requirements-based Prioritization 
+assigning priorities to different requirements based on their importance to the stakeholders
+Usually problematic if there are dependencies with other test cases who have lower prioritization. 
+ Test Pyramid
+Pyramid Layers Represent groups of tests. 
+Higher the layer, lower test granularity or count of test cases and lower the test execution time.
+Base of the pyramid = unit tests have a fine granularity small in size and is focused on testing individual components in isolation
+Middle of the pyramid = integration tests. Fowses on verifying interactions & collaborations between components 
+Top of the. pyramid=coarsest granularity: stimulate E2E user interactions. validates the system's overall behavior
+Test Isolation 
+means tests shouldn't rely on external systems, databases or services. 
+unit tests have the highest isolation
+efforts are made to minimize external dependencies & isolate the components being tested as much as possible
+E2E tests are less isolated compared to lover level tests hence meaning “coarsest” granularity
+Test Execution Time 
+Unit tests at the base of the pyranid are fast to create since they don't involve the complexities of broader system interactions
+Integration tests take longer to excute than unit tests but are generally faster than Ul tests 
+E2E tests are the slowest to execute
+Test Automation 
+used to support test automation
+How much effort . should be allocated to different lends of automation
+unit A integration tests are automated & created using API based tools 
+toplevels are automated - Using GUI-based tools
+Test Coverage 
+High-level tests are generally slower than the tests in the lower layers but they check a large piece of functionalty so just a few of them are I needed to achieve good coverage l 
+Benefts of the test Pyramid 
+Early detection of defects 
+Optimizing Feedback Loop 
+cost-efficiency 
+Maintainability 
+Focus on integration 
+EZE confidence scalability 
+Testing Quadrants 
+Helps align test levels with appropriate test types & activities. 
+Apply to dynamic testing rather than static testing
+ Four Quadrants: 
+1) Quadrant Q1
+Unit-level 
+Technology-facing 
+supports developers 
+contains component & component integration tests 
+should be automated 
+2) Quadrant Q2 
+System- level 
+Business-facing 
+Confirms product behavior 
+contains functional-tests 
+check acceptance criteria 
+can be manual or automated 
+often created during user story deilopment 
+useful when creating automated regression test suites
+3.) Quadrant Q3 
+system or user acceptance level 
+Business-facing 
+contains tests that critique the product 
+contains exploratory testing, usability testing, UAT 
+user-oriented 
+often manual 
+4) Quadrant Q4 
+System or operational acceptance level 
+technology-facing 
+Contains tests that critique the product. 
+contains smoke tests & non-functional tests like performance & security 
+Often automated
+Benefits of Testing Quadrants 
+Comprehensive Test Coverage 
+Balanced testing strategy 
+Alignment with Agile Principles 
+Improved communication & collaboration 
+Early & Continuous Testing
+Risk Mitigation 
+Flexible & adaptable Testing Approach 
+Continuous Improvement
+Risk and Testing 
+Risk is an important factor in the testing activity 
+if risk is high = more effort in testing the software 
+ Risk Definition and Risk Attributes 
+Event in future has negative  consequence
+Testing is used to reduce the probability of a negative event occurring or reduce it's impact 
+Risk is used to focus on the effort required during testing. used to decide where & when to start testing 
+Risk-based Testing 
+ TCs are selected prioritized and managed based on risk analysis & control
+Risk Management Activities Approach
+1.) Analyze what go wrong (risks) 
+2.) Determine which risks are important 
+3.) Implement actions to mitigate those risks 
+4.) Make contingency plans to deal with the risks
+ Product & Project Risks
+Product=software itself 
+Project = activities needed to create the product
+Product (Quality) Risks would be that a work product may fail to satisfy user needs
+Project Risks are risks that may have a negative effect on a project's ability to achieve it's objectives
+ Product Risk Analysis 
+Risk Identification & Risk Assessment
+Risk Identification 
+one of the toughest activities 
+Techniques in Risk Identification 
+Brainstorming 
+Interviews 
+Risk workshop 
+Risk templates & checklists 
+calling on past experience 
+cause-effect diagrams 
+Risk. Characterization Factors 
+Risk-likelihood = probability of the risk 
+Risk Impact (harm) = consequences of this occurrence
+Level of risk = probability x impact
+Risk Assessment
+Involves: 
+Categorization of Identified risks 
+Prioritizing risk 
+proposing ways to handle them
+Quantitative Approach = risk level is likelihood * impact 
+Qualitative Approach=determined using a risk matrix (low, medium, high)
+Product Risk Control
+consists of risk mitigation & risk monitoring
+Risk mitigation = implementing actions proposed in risk assessment to reduce risk level
+4 ways to respond to risks: 
+1.) Avoid=doing anything to make the risk level zero
+2.) Mitigate = lower risk level
+3.) Transfer = moving risk from your side to another side
+4.) Accept -=actively put up a plan while waiting for the risk to happen

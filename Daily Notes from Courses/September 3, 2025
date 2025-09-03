@@ -92,3 +92,24 @@ version control
 test documentation 
 should be identified during TEST PLANNING 
 usually automated during DEVOPS
+Defect Management
+Ensures that defects are tracked
+Depends on the organization
+Testers should minimize false-positives marked as defects
+Typical Defect Reports Objectives:
+Provide developers and others about any defect
+Provide test managers a mean of tracking the quality of the work product
+Provide ideas for development and test process improvement
+Defect Report Outline:
+UID
+Title and short summary
+Date of the defect report
+Identification of the test object
+Context of the defect
+Description of the failure to enable recreation
+Expected and actual results
+Steps to reproduce
+Scope or degree of impact
+Urgency/priority to fix
+State of the defect report
+References

@@ -1478,3 +1478,98 @@ Risk mitigation = implementing actions proposed in risk assessment to reduce ris
 2.) Mitigate = lower risk level
 3.) Transfer = moving risk from your side to another side
 4.) Accept -=actively put up a plan while waiting for the risk to happen
+September 3, 2025
+Test Monitoring, Test Control and Test Completion 
+- Test monitoring is to gather information & provide feedback and visibility about test activities 
+- Purpose/Purposes of test Monitoring: 
+give feedback to test team & manager 
+provide project team visibility about test results 
+check if exit criteria is also satisfied 
+gather data for use 
+prove that the plan is right 
+- Test Control is needed to get things back on track. It involves a guiding corrective action that is taken
+-Test Control Actions Examples: 
+Re-prioritization of tests due to risks. 
+Changing test schedule due to availability
+Re-evaluation of items for entry & exit criteria 
+scope adjustment for testing due to change requests
+Adding new resources 
+-Test completion collects data from completed test activities
+Metrics Used in Testing
+test metrics are gathered to 
+show progress against the test plan 
+current quality of the test object 
+effectiveness of the test activities with respect to the objectives or an iteration
+ Example of nutrics is Project Progress Metrics
+Project Progress Metrics 
+Task Completion: Measures progress of tasks
+Resource Usage: utilization of resource to ensure good allocation 
+Test effort: overall effort invested in testing 
+Test Progress Metrics: 
+test Case implementation progress 
+test environment Preparation progress
+Number of test cases Run/not Run 
+Number of test cases passed/Failed 
+Test execution time
+ Product Quality Metrics 
+Availability. 
+Response Time 
+Mean Time to failure
+Defect Metrics 
+Number and Priorities of Defects Found/Fixed 
+Defect Density = defects per unit 
+Defect Detection percentage 
+Risk Metrics 
+Residual Risk Level = assesses level of risk that remains after mitigation efforts 
+Coverage Metrics. 
+Requirements coverage = percentage of requirements covered by test cases 
+Code coverage = extent of code exercised by the test cases
+Cost Metrics 
+Cost of Testing 
+organizational cost of quality 
+Metrics assist in monitoring progress, assess quality, managing risks & making informed decisions
+ Purpose, Content and Audience for Test Reports 
+purposes of test Reporting 
+Notifying project stakeholders about test results 
+Help stakeholders understand & analyze results of a test period 
+Help stakeholders to make decisions about how to guide the project forward 
+Assuring that the original test plan will lead us to achieve testing goals 
+Types of Test Reports: 
+Test progress reports 
+A test report prepared during a test activity 
+supports the ongoing control at the testing 
+key components in a test progress report: 
+test period = Time of report and activities 
+test progress = Summanizes overall progress of testing activities. 
+Impediments for testing and their workaround = obstacles & how to our them 
+test metrics 
+New & changed risks  within the testing period 
+Testing planned for the next period
+Test completion reports 
+summarizes the testing efforts & outcomes 
+issues when exit criteria are reached
+Elements of a test completion report: 
+Test summary 
+Testing & Product Quality Evaluation 
+Deviations from the test plan 
+Testing impediments & workarounds 
+Test Metrics Based on test progress reports 
+unmitigated risks and defects not fixed
+ Communicating Status of Testing 
+Means of communication should align w/ the organization test strategy 
+There are regulatory standards some organization follows 
+To also consider team members location 
+communication options include: 
+verbal communication = audience interaction 
+dashboards = visual representation (example: burn-down charts which illustrate how work is decreasing overtime 
+electronic communication channels=real-time updates 
+online documentation = comprehensive information 
+formal test reports = structured information which are structured documents that provide a detailed overview
+ Configuration Management 
+correct version of the software module?
+version of the software System 
+purpose is to establish and maintain integrity of the component or system 
+version control 
+test documentation 
+should be identified during TEST PLANNING 
+usually automated during DEVOPS

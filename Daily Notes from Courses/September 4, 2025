@@ -1,0 +1,55 @@
+September 4, 2025
+Tools Support for Testing:
+Tools are classified in the syllabus according to the test activities that they support
+Testing Tool Categories:
+Management Tools
+Static Testing Tools
+Test design and implementation tools
+Test execution & coverage tools
+Non-functional testing tools
+DevOps Tools 
+Collaboration Tools
+Tools supporting scalability and deployment standardization
+Any other tool that assists in testing
+1. Management Tools
+Supports managing the test processes and increasing efficiency
+Test management tools : test managers and leaders for reports
+Requirements Management Tools: Help manage the requirements
+Defect Management Tools: Defects are used heavily used by testers and developers
+Configuration Management Tools: used by everyone
+Continuous Integration Tools: usually used by developers
+2. Static Testing Tools
+Tools used in static testing
+Normally used by developers as part of development and component testing
+3. Test Design and Implementation Tools
+Creation of maintainable work products
+4. Test Execution and Coverage Tools
+Test automation tools 
+Usually called “test scripts”
+Developers usually use coverage measurement tools
+5. Non-functional Tools
+Usually impossible to perform manually
+6. DevOps Tools
+Designed to help software development and delivery teams test their code more effectively
+7. Collaboration Tools
+File sharing, instant messaging, cloud storage, etc
+Facilitates communication between team members
+8. Tools supporting scalability and deployment standardization
+Designed to address the challenges of testing large and complex systems that require efficient scaling
+Benefits and Risks of Test Automation
+Benefits of Using Tools to Support test execution:
+Repetitive work is reduced
+Greater consistency and repeatability
+Objective assessment
+Ease of access to information about tests or testing
+Reduced test execution times
+More time for testers
+Risks:
+Unrealistic expectations for the tools
+Understanding effort for using the tool
+Using a test tool when manual testing is more appropriate
+Over-reliance on the tool
+Dependency on the tool vendor
+Risk of suspension of open-source/free tool project
+The automation tool is not compatible with the development platform
+Choosing an unsuitable tool that does not comply with the regulatory requirements
